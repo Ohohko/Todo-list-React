@@ -1,9 +1,33 @@
 .header {
-background:darkkhaki;
+background:#4bf48f;
 display: flex;
 align-items: center;
 justify-content: center;
-height: 100px;
+height: 200px;
 position: relative;
 text-decoration: solid;
+margin: 2%;
+flex-direction: column;
+flex-wrap: wrap;
 }
+
+h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    
+
+}
+input{
+    position: flex;
+    flex-direction: row;
+    border-radius: 10% 10%;
+    border: 0.5px solid transparent;
+    width: 50vw;
+    height: 5vh;
+    margin: 6%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
